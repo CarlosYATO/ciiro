@@ -12,7 +12,10 @@ html {
   scroll-behavior: smooth; /*para desplazarse "scrolear" suavemente dentro de la página al presionar un enlace*/
 }
 /***************************************************/
-
+.ligas-secciones {
+	display: flex;
+	justify-content: space-between;
+}
 
 /**********************************/
 /*estilos para header de la página*/
