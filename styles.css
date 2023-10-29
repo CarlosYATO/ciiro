@@ -44,21 +44,23 @@ header {
 }
 .identificador img{/*caracteristicas imagen identificadora dentro del contenedor con clase identificador*/
 	margin-top: 10px; /*un margen arriba de 15 px*/
-    height: 105.61px; /*ancho que tendra la imagen identificadora*/
+    height: 95.61px; /*ancho que tendra la imagen identificadora*/
 }
 .ligas-secciones{/*caracteristicas elementos en contenedor con la clase secciones*/
 	/*border: 5px solid #555;  /* For debugging */
 	width: 100%; /*ancho que tendra el contenedor con clase menu*/
 	display: flex; /*sera un elemento/item de tipo flex*/
-	justify-content: space-between; /*defino la alineación horizontal de los items hijos diciendo
+	 /*defino la alineación horizontal de los items hijos diciendo
 	cuando hay mas de uno distribuya el esapcio restante entre los espacios de cada elemento/item*/
 }
 .ligas-secciones a{/*caracteristicas elementos tipo enlace dentro del contenedor con clase secciones*/
 	color: darkseagreen; /*color que tendran las fuentes de los enlaces*/
 	text-decoration: underline; /*le quito decoraciones a los enlaces, saeln sin subrayar ahora*/
   	font-weight: bold; /*tipo de letra bold*/
- 	margin-top: 30px;
- 	transition: 50ms; /*para la transicion con media queries diseño responsivo*/
+ 	margin-top: 5px;
+ 	transition: 50ms;
+	padding: 4px 0px;
+	font-size: 20px/*para la transicion con media queries diseño responsivo*/
 }
 .ligas-secciones a:hover{
   transform: scale(1.03);
