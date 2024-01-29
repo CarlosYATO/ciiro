@@ -343,3 +343,10 @@ footer {
   	transition: 100ms;
 }
 /***************************************************/
+
+
+.main-contaiener{
+	background-color : #fefefe;
+	display: flex ; 
+	height: 60px;
+}
